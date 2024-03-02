@@ -1,0 +1,175 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: #1D2737;
+}
+#store-about{
+    width: 90%;
+    margin: 10px auto;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items:center;
+    color: #FFF;
+}
+.logo h3{
+    color: white;
+}
+.logo img{
+    width: 50px;
+    border-radius: 50%;
+}
+.search input{
+    width: 250px;
+    position: relative;
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid rgb(206, 206, 206);
+    font-size: 12px;
+    
+}
+.search i{
+    position: absolute;
+    left: 92.3%;
+    top: 21px;
+}
+#abt{
+    width: 90%;
+    margin: 120px auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+.about h1{
+    font-size: 45px;
+    color: #FFF;
+}
+.about p{
+    color: #b9b9b9;
+    font-size: 19px;
+}
+#store-category{
+    width: 75%;
+    margin: 80px auto;
+}
+.filter-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    font-size: 22px;
+    position: relative;
+}
+.filter-div button{
+    padding: 15px 190px 15px 15px;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 18px;
+    border: 1px solid rgb(179, 179, 179);
+    cursor: pointer;
+}
+.filter-div i{
+    position: absolute;
+    right: 15px;
+}
+
+#options{
+    display: none;
+    position: absolute;
+    right: 0;
+    width: 280px;
+    top: 70px;
+    background-color:#1D2737;
+    padding: 15px;
+    z-index: 1;
+}
+#options p{
+    transition: all 0.5s ease-in;
+    margin-left: 7px;
+    cursor: pointer;
+}
+#options p:hover{
+    background-color: #131a24;
+}
+.show{
+    display: block;
+}
+#store-category hr{
+    margin-top: 35px;
+    color:rgb(50, 50, 50)
+}
+.main-datas{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+    align-items:center;
+}
+.card{
+    width: 150px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 50px;
+  
+    
+}
+.card img{
+    width: 150px;
+    height: 170px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 3px white);
+}
+
+.card h2{
+    font-size: 16px;
+    color: #FFF;
+}
+.product-name{
+    text-overflow: ellipsis;
+white-space: nowrap;
+    overflow: hidden;
+}
+.card span{
+   color: gray;
+}
+footer{
+    width: 90%;
+    margin: 0 auto 10px auto;
+    font-size: 19px;
+}
+.container-abt{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+}
+.links{
+    display: flex;
+    gap: 10px;
+    align-items:center;
+    justify-content: center;
+    cursor: pointer;
+}

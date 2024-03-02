@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: #1D2737;
+}
+.container{
+    width: 75%;
+    margin: 150px auto;
+
+}
+.card{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.card .image{
+    width: 50%;
+}
+.image img{
+    width: 500px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    justify-content: center;
+}
+.title{
+    color: #FFF;
+}
+.price , .review , .comment{
+    color: gray;
+}
+.button{
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items:center
+}
+.button button:nth-child(1){
+    background-color: black;
+    padding: 10px 60px;
+    color: #FFF;
+    border:none;
+    border-radius:10px
+}
+.button button:nth-child(2){
+    background-color: transparent ;
+    border:1px solid white;
+    padding: 10px 60px;
+    color:#FFF;
+    border-radius:10px
+}
